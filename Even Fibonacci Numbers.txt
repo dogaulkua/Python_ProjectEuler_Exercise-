@@ -1,0 +1,24 @@
+#Even Fibonacci Numbers
+
+def fib(n):
+    a, b = 1, 2  # First and second Fibonnacci Number
+    sum = 0  # Sum variable
+
+    while a <= n:
+        if a % 2 == 0:  # If its even number
+            sum += a  # Add sum varible
+        
+        a, b = b, a + b  # Update Fibonacci number
+    
+    return sum
+
+# 4 milyonu aşmayan çift Fibonacci sayılarının toplamını hesapla
+n = 4000000
+result = fib(n)
+
+print(f"Toplam: {result}")
+
+# Sum: 4613732
+  
+
+
