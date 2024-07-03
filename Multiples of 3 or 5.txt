@@ -1,0 +1,11 @@
+#Multiples of 3 or 5 
+
+sum = 0 # The question ask sum of the correct answer so that su create sum and we attend to 0 
+
+for i in range(1, 1000): # Our flop range from 1 to 1000 which is same 2 to 1000
+    if i % 3 == 0 or i % 5 == 0: # We need to use if because we have a condition
+        sum += i # You can wrote this sum = sum + i :)
+
+print(f"Sum: {sum}") # We use f-string there to print the result
+
+#Answer: 233168
