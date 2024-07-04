@@ -1,0 +1,14 @@
+#Largest Prime Factor
+
+num=600851475143
+i=2 # Smallest prime factor
+for k in range(0,num):
+    if i >= num: # Prime factor of the number should not be greater than the number
+        break
+    elif num % i == 0: # Check if the number is evenly divisible by i
+        num = num // i
+    else:
+        i= i + 1
+print ("biggest prime number is: "+str(num))  
+
+#Answer:  6857
