@@ -1,0 +1,7 @@
+#Sum Square Difference
+
+Liste=[x for x in range(101)]
+Liste2=[x**2 for x in range(101)]
+print(sum(Liste)**2-sum(Liste2))
+
+#Answer:  25164150
