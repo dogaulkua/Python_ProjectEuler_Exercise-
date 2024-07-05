@@ -1,0 +1,17 @@
+#Smallest Multiple
+import math
+import functools
+
+def gcd(d, ü):
+    return math.gcd(d, ü) #EBOB
+
+def lcm(d, ü): #EKOK
+    return (d * ü) // gcd(d, ü)
+
+lst = range(1, 21)
+
+result = functools.reduce(lcm, lst) #Sum of the numbers which i found
+print(result)
+
+#Answer:  232792560
+# EBOB * EKOK == d * ü
