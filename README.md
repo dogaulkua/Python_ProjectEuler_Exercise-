@@ -1,1 +1,1 @@
-# Python_ProjectEuler_Exercise-
+# Python ProjectEuler Exercise
